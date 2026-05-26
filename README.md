@@ -1,79 +1,110 @@
-# Moral Clarity AI — Public
+Moral Clarity AI
 
-Public-facing website and documentation surface for Moral Clarity AI.
+Execution governance infrastructure for autonomous systems operating under real-world consequence.
 
-Moral Clarity AI builds execution-governance infrastructure for autonomous systems operating under changing state, authority, uncertainty, and real-world consequence.
+Moral Clarity AI develops runtime governance systems designed to evaluate whether autonomous or AI-assisted actions remain admissible under evolving operational conditions.
 
-## Purpose
+The platform focuses on:
 
-This repository is intentionally public-facing. It explains the product ecosystem, governance philosophy, and public architecture boundary without exposing private production infrastructure.
+runtime admissibility,
+execution governance,
+authority continuity,
+consequence-aware orchestration,
+and deterministic enforcement boundaries for probabilistic systems.
+Core Principle
+Probabilistic systems can generate decisions.
 
-## What is included
+Governance determines whether execution remains legitimate.
+Why This Exists
 
-- Public landing page
-- Product and ecosystem overview
-- Public governance framing
-- Sanitized architecture boundary description
-- Public docs
-- Vercel-ready Next.js project
+Modern AI systems increasingly operate inside environments where:
 
-## What is not included
+state changes continuously,
+authority degrades over time,
+orchestration chains evolve,
+assumptions drift,
+and consequence-bearing execution persists under uncertainty.
 
-- Authentication flows
-- Admin routes
-- Founder routes
-- Stripe or billing workflows
-- Supabase service-role access
-- Memory infrastructure
-- Newsroom workers
-- Customer data
-- Private telemetry
-- Internal orchestration logic
-- Secrets or production environment variables
+Most governance systems evaluate policy statically.
 
-## Core framing
+Moral Clarity AI focuses on runtime governance:
+whether execution should still remain admissible at the moment consequence forms.
 
-```text
-Probabilistic cognition proposes.
-Governance decides.
-Execution proceeds only when admissible.
-```
+Platform Areas
+Solace
 
-## Local development
+Governed execution infrastructure for autonomous and AI-assisted systems.
 
-```bash
+Solace Core
+
+Deterministic execution authority engine for runtime governance decisions.
+
+Harmonic Stabilizer
+
+Execution-boundary evaluation layer for consequence-bearing AI outputs.
+
+Runtime Admissibility
+
+Continuous recomputation of execution legitimacy under evolving operational conditions.
+
+Authority Continuity
+
+Evaluation of whether inherited authority remains valid at execution time.
+
+Public Repository Scope
+
+This repository contains:
+
+public-facing platform surfaces,
+architectural framing,
+governance concepts,
+sanitized examples,
+documentation,
+and integration references.
+Development
 npm install
 npm run dev
-```
-
-## Build
-
-```bash
+Build
 npm run build
-```
+Deployment
 
-## Deployment
+Deploy as a standard Next.js application.
 
-Deploy as a standard Next.js application on Vercel.
+Compatible with:
 
-```bash
-vercel deploy
-```
+Vercel
+self-hosted Node.js infrastructure
+containerized deployments
+Philosophy
 
-## Repository boundary
+Execution governance is not:
 
-The private production repository should remain private. This public repository is a product, documentation, and positioning surface only.
+moderation,
+static policy,
+or post-hoc audit.
 
-## Security
+It is the evaluation of whether real-world execution should remain permissible under live operational conditions.
 
-Please report security concerns privately. See `SECURITY.md`.
+Security
 
-## Contributing
+Please report vulnerabilities privately.
 
-Public contributions are welcome for documentation, public examples, and clarity improvements. See `CONTRIBUTING.md`.
+See SECURITY.md.
 
-## License
+Contributing
+
+Public contributions are welcome for:
+
+documentation,
+examples,
+SDK integrations,
+developer tooling,
+and public research framing.
+
+See CONTRIBUTING.md.
+
+License
 
 Licensed under the Apache License, Version 2.0.
 
-See the `LICENSE` file for details.
+See LICENSE.
